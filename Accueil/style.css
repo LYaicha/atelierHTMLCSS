@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E1E1E1;
+}
+
+.menu{
+    width: 100%;
+    background-color: rgb(3, 69, 144);
+}
+
+.container .menu ul{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    color: white;
+    gap: 5px;
+    justify-content: end;
+}
+
+.container .menu ul li{
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    font-family: tahoma;
+}
+
+.menu ul li:hover {
+    background-color: #00A486;
+}
+
+.active{
+    background-color:#00A486;
+}
+
+.imagePrincipale{
+    margin-bottom: 50px;
+}
+
+.imagePrincipale img{
+    width: 100%;
+    height: 520px;
+}
+
+.imagePrincipale h1{
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    font-weight: bold;
+    color: white;
+}
+
+.Cetud_section{
+    display: grid;
+    grid-template-columns: 35% 20% 20% 20%;
+    margin-left: 50px;
+    margin-right: 20px;
+    gap: 20px;
+    
+}
+
+.gridsection1 {
+    padding-top: 20px;
+}
+
+.gridsection1 p{
+    font-size: 18px;
+}
+
+.gridsection1 span{
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 10%;
+}
+
+.gridsection1 span:hover{
+    background-color:rgb(19,123,245);
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cetudMission{
+    background-color: white;
+    height: 340px;
+}
+
+.cetudMission p, h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.cetudMission h4{
+    margin-left: 40px;
+}
+
+.cetudMission a{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #00A486;
+    width: 80px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+.cetudMission a:hover{
+    background-color: rgb(19, 123, 245);;
+    color: white;
+}
+
+.cetudMission img{
+    width: 100%;
+}
+
+
+.reseautransport img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Actualite_recente{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 30px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.actualite h1,p{
+    text-align: center;
+}
+
+.actualite p{
+    font-size: 18px;
+}
+
+.actualite{
+    margin-bottom: 30px;
+}
+
+.GridActualite{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.GridActualite:hover{
+    background-color:rgb(19, 123, 245);;
+    transition: 1s;
+}
+
+.ProjetBRT{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;  
+}
+
+.ProjetItems{
+    background-color: white;
+    height: 130px;
+}
+
+.ProjetItems:hover{
+    background-color: rgb(19, 123, 245);;
+    color: white;
+}
+
+.ProjetItems h4:hover{
+    color: white;
+}
+
+.ProjetBrtext{
+    margin-top: 80px;
+}
+
+.ProjetBrtext h2, h3{
+    text-align: center;
+}
+
+.ProjetItems h4{
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    color: #00A486;
+}
+
+.GridActualite img{
+    width: 350px;
+    height: 380px;
+    margin-left: 35px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.GridActualite h4{
+    margin-left: 25px;
+}
+
+.footerPage{
+    width: 100%;
+    height: 300px;
+    background-color: #262525;
+    margin-top: 40px;
+}
+
+.FooterPageItem{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+}
+
+.FooterPageItem h4{
+    color: white;
+    font-size: 16px;
+}
+
+.ItemFootter p{
+    padding: 5px;
+}
+
+#avisClient{
+    margin-left: 45px;
+}
+
+.Newsletters input{
+    height: 22px;
+}
+
+.Newsletters button{
+    height: 25px;
+    border: none;
+    background-color: #00A486;
+    color: white;
+}
+
+.reseaux_sociaux i{
+    color: white;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.reseaux_sociaux i:hover{
+    color: #00A486;
+    border-radius: 20px;
+}
+
