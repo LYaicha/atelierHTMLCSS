@@ -1,0 +1,171 @@
+.container{
+    width: 550px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: center;
+    grid-template-columns: 53% 47%;
+}
+.sectionImage{
+    background-color: rgb(19, 123, 245);
+}
+.logo{
+    width: 80px;
+    color: white;
+}
+.constructeur{
+    width: 200px;
+    text-align: center;
+}
+.constructeur img{
+    width: 300px;
+    display: block;
+}
+.formulaire{
+    border: 1px;
+    background-color: rgb(244,245, 252);
+    padding: 20px;
+}
+h4{
+    color: rgb(19, 123, 245);
+}
+.login input{
+    width: 220px;
+    height: 20px;
+    border: 1px solid rgb(224,222,222);
+    margin-bottom: 30px;
+    /* padding-bottom: 30px; */
+}
+::placeholder{
+    color: darkgray;
+    margin-left: 25px;
+    padding: 10px;
+}
+.captchaMain{
+    width: 220px;
+    height: 90px;
+    border: 1px solid rgb(224 222 222);
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+.captchaSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.captchaSection h4{
+    color: rgb(254, 141, 1);
+    margin-top: -2px;
+}
+.captchaSection button{
+    height: 25px;
+    color: white;
+    background-color:rgb(19, 123, 245);
+    border-radius: 2px;
+    border: none;
+    font-size: 5px;
+    width: 65px;
+    margin-top: 1px;
+
+}
+
+.captchaMain input{
+    width: 205px;
+    height: 20px;
+    margin-top: -90px;
+    border: 1px solid rgb(224,222,222)
+
+}
+.passwordAction{
+    display: flex;
+    /* margin:; */
+}
+.passwordAction{
+    display: flex;
+    font-size: 10px;
+}
+#checkbox{
+margin-top: -1px;
+}
+#spanRemember{
+    color: darkgray;
+}
+#linkPassword{
+    text-decoration: none;
+    margin-left: 70px;
+    font-style: italic; 
+    color: rgb(19, 123, 245);
+}
+
+.btnlogin button{
+    width: 220px;
+    height: 25px;
+}
+.btnlogin button:nth-child(1){
+    color: white;
+   background-color: rgb(19, 123, 245) ;
+   border: none;
+   font-size: 10px;
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+.btnlogin button{
+    color: rgb(19, 123, 245);
+   background-color:white ;
+   border-radius: 2px;
+   border: 1px solid  rgb(19, 123, 245);
+   font-size: 10px;
+   font-weight: bold;
+}
+.btnlogin p{
+    text-align: center;
+    margin: 2px;
+    color: rgb(19, 123, 245);
+    margin-top: 5px;
+    font-size: 12px;
+}
+.personnalInfos{
+background-color: white;
+padding: 10px;
+text-align: center;
+margin: 0 auto;
+width: 190px;
+height: 100px;
+margin-bottom: 30px;
+border-radius: 5px;
+}
+.helpdesk{
+    display: flex;
+}
+
+.email{
+    display: flex;
+}
+
+.personnalInfos p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.personnalInfos h6{
+    margin-top: 13px;
+}
+
+p span{
+    margin-left: 19px;
+}
+
+#ipung{
+    margin-left: -2px;
+}
+/* 
+.email p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.email h6{
+    margin-top: 13px;
+} */
