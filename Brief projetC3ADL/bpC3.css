@@ -1,0 +1,149 @@
+
+
+body{
+   /* font-family: Verdana; */
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+/* stylisation du NavBar1 */
+.header1{
+    background-color: #25384f;
+    border:solid #25384f;
+}
+.navbar1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    
+}
+
+li{
+    float: left;
+    margin: 0%;
+}
+li a{
+    display: inline-block;
+    color:#ffffff ;
+    padding:1px 5em ;
+    text-decoration: none;
+    
+}
+#hoveryellow:hover{
+background-color: #ccdb3e;
+color:#25384f ;
+}
+
+ul i{
+color: #ffffff;
+}
+.underbold{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+    /* Stylisation du NavBar2 */
+
+.header2{
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    /* border:solid #25384f; */
+}
+      
+.navbar2{
+    width: 100%;
+    margin:0;
+    height: 1em;
+    list-style: none
+}
+.hednav2{
+    width: 85%;
+    display: flex;
+    
+}
+
+div li a{
+    display: inline-block;
+    color:#25384f ;
+    padding:1px 5em ;
+    text-decoration: none;
+}
+.imghead{
+    float: right;
+    width: 5rem;
+
+}
+.diImg{
+    width: 15%;
+    
+}
+/* stylisation de la baniére */
+.divBaniere{
+  width: 100%;
+  background-color:#71b9e5; 
+  display:flex;
+  align-items: center;
+}
+
+.divBimg{
+    width: 60%;
+    float: left;
+    padding-top: 5em;
+}
+.divBtext{
+    width: 50%;
+    padding-left: 17em;
+    float: right;
+    
+}
+
+
+.ditextYellow{
+    background-color:#ccdb3e;
+    width: 15em;
+    color: #25384f;
+    text-shadow: #25384f;
+    text-align: center;
+}
+div h2{
+    color: #25384f;
+    font-weight: bolder;
+    font-size: xx-large
+    
+}
+#itgr{
+    font-style: italic;
+    margin-top: 0%;
+}
+
+/* stylisation de la sousBaniere */
+.divSBanier{
+    border: #25384f;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between
+}
+.divImgSB{
+    width: 50%;
+    padding:7em 15em;
+}
+.divtxtSB{
+    width: 60%;
+    margin: 2em 10em;
+    padding:7em 15em ;
+    color: #25384f;
+}
+.imsb{
+    width: 80%;
+    margin: 2em 10em;
+}
+
+#txtengras{
+    font-weight: bold;
+}
